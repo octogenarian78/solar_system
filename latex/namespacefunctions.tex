@@ -1,0 +1,62 @@
+\doxysection{Référence de l\textquotesingle{}espace de nommage functions}
+\hypertarget{namespacefunctions}{}\label{namespacefunctions}\index{functions@{functions}}
+\doxysubsubsection*{Fonctions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{namespacefunctions_af7504f00be5d87208e6322c8aba51b3c}{get\+\_\+orbit}} (a, e, num\+\_\+points=200)
+\item 
+\mbox{\hyperlink{namespacefunctions_a5a43573b7f626757ddd2627e5b6601f1}{update}} (frame, planets, moons, planet\+\_\+plots, moon\+\_\+plots, planets\+\_\+with\+\_\+moons)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Description détaillée}
+\begin{DoxyVerb}@file functions.py
+@brief Fonctions utilitaires pour les calculs d'orbites et mises à jour d'animation.
+
+Ce fichier contient des fonctions pour calculer les orbites elliptiques des planètes
+et mettre à jour leurs positions dans l'animation.
+
+@author Pierre JAUFFRES
+@date 2025-02-22
+\end{DoxyVerb}
+ 
+
+\doxysubsection{Documentation des fonctions}
+\Hypertarget{namespacefunctions_af7504f00be5d87208e6322c8aba51b3c}\index{functions@{functions}!get\_orbit@{get\_orbit}}
+\index{get\_orbit@{get\_orbit}!functions@{functions}}
+\doxysubsubsection{\texorpdfstring{get\_orbit()}{get\_orbit()}}
+{\footnotesize\ttfamily \label{namespacefunctions_af7504f00be5d87208e6322c8aba51b3c} 
+functions.\+get\+\_\+orbit (\begin{DoxyParamCaption}\item[{}]{a}{, }\item[{}]{e}{, }\item[{}]{num\+\_\+points}{ = {\ttfamily 200}}\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}@brief Calcule les coordonnées d'une orbite elliptique.
+
+
+Cette fonction calcule les coordonnées x et y d'une orbite elliptique en fonction du demi-grand axe et de l'excentricité.
+
+@param a: Demi-grand axe de l'orbite.
+@param e: Excentricité de l'orbite.
+@param num_points: Nombre de points pour tracer l'orbite (par défaut 200).
+
+@return: Coordonnées x et y de l'orbite.
+\end{DoxyVerb}
+ \Hypertarget{namespacefunctions_a5a43573b7f626757ddd2627e5b6601f1}\index{functions@{functions}!update@{update}}
+\index{update@{update}!functions@{functions}}
+\doxysubsubsection{\texorpdfstring{update()}{update()}}
+{\footnotesize\ttfamily \label{namespacefunctions_a5a43573b7f626757ddd2627e5b6601f1} 
+functions.\+update (\begin{DoxyParamCaption}\item[{}]{frame}{, }\item[{}]{planets}{, }\item[{}]{moons}{, }\item[{}]{planet\+\_\+plots}{, }\item[{}]{moon\+\_\+plots}{, }\item[{}]{planets\+\_\+with\+\_\+moons}{}\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}@brief Met à jour la position des planètes et de la lune à chaque frame.
+
+
+Cette fonction calcule les nouvelles positions des planètes et de la lune et les met à jour dans l'animation.
+
+@param frame: Index de l'animation.
+@param planets: Liste des objets Planet.
+@param moon: L'objet Moon.
+@param planet_plots: Dictionnaire des objets graphiques des planètes.
+@param moon_plot: Objet graphique de la lune.
+@param planets_with_moons: liste des planetes avec une lune
+
+@return: Liste des éléments graphiques mis à jour.
+\end{DoxyVerb}
+ 

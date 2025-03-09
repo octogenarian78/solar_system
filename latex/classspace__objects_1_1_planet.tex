@@ -1,0 +1,106 @@
+\doxysection{Référence de la classe space\+\_\+objects.\+Planet}
+\hypertarget{classspace__objects_1_1_planet}{}\label{classspace__objects_1_1_planet}\index{space\_objects.Planet@{space\_objects.Planet}}
+Graphe d\textquotesingle{}héritage de space\+\_\+objects.\+Planet\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{classspace__objects_1_1_planet}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Fonctions membres publiques}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classspace__objects_1_1_planet_a0bb40013c055b7cd9c7b613f7156e0e4}{\+\_\+\+\_\+init\+\_\+\+\_\+}} (self, \mbox{\hyperlink{classspace__objects_1_1_celestial_body_a1790e6421c33f1570c11b4b2d06eff4b}{name}}, \mbox{\hyperlink{classspace__objects_1_1_celestial_body_a7e7a103f53855e006f0fe413c4a05cda}{size}}, \mbox{\hyperlink{classspace__objects_1_1_planet_a0745550fe7a8b16018f5001efe63f5e9}{star}}, \mbox{\hyperlink{classspace__objects_1_1_planet_a20e1c836803b3cac552cd3fd77d712d9}{semi\+\_\+major\+\_\+axis}}, \mbox{\hyperlink{classspace__objects_1_1_planet_a819f0e21b751d68c28415d1b7872f19e}{eccentricity}}, \mbox{\hyperlink{classspace__objects_1_1_planet_a7366e5f06e2eb7138921314eae4159a2}{period}}, \mbox{\hyperlink{classspace__objects_1_1_planet}{diameter\+\_\+km}}, \mbox{\hyperlink{classspace__objects_1_1_planet_a9f2504aa2ba0db7fb9689dc301d46f4d}{color}})
+\end{DoxyCompactItemize}
+\doxysubsection*{Fonctions membres publiques hérités de \mbox{\hyperlink{classspace__objects_1_1_celestial_body}{space\+\_\+objects.\+Celestial\+Body}}}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classspace__objects_1_1_celestial_body_a26104f6373950dff22e41ba4a4bfcbc4}{\+\_\+\+\_\+init\+\_\+\+\_\+}} (self, \mbox{\hyperlink{classspace__objects_1_1_celestial_body_a1790e6421c33f1570c11b4b2d06eff4b}{name}}, \mbox{\hyperlink{classspace__objects_1_1_celestial_body_a7e7a103f53855e006f0fe413c4a05cda}{size}}, \mbox{\hyperlink{classspace__objects_1_1_celestial_body_a24251ec6d80c535dac799fd4373d5965}{diameter\+\_\+km}}=None)
+\item 
+\mbox{\hyperlink{classspace__objects_1_1_celestial_body_a6ce6591c84748ec8f150cc1f3a28d661}{get\+\_\+scaled\+\_\+size}} (self, scale\+\_\+factor=1e9)
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Attributs publics}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classspace__objects_1_1_planet_a0745550fe7a8b16018f5001efe63f5e9}{star}} = star
+\item 
+\mbox{\hyperlink{classspace__objects_1_1_planet_a20e1c836803b3cac552cd3fd77d712d9}{semi\+\_\+major\+\_\+axis}} = semi\+\_\+major\+\_\+axis
+\item 
+\mbox{\hyperlink{classspace__objects_1_1_planet_a819f0e21b751d68c28415d1b7872f19e}{eccentricity}} = eccentricity
+\item 
+\mbox{\hyperlink{classspace__objects_1_1_planet_a7366e5f06e2eb7138921314eae4159a2}{period}} = period
+\item 
+\mbox{\hyperlink{classspace__objects_1_1_planet_a9f2504aa2ba0db7fb9689dc301d46f4d}{color}} = color
+\end{DoxyCompactItemize}
+\doxysubsection*{Attributs publics hérités de \mbox{\hyperlink{classspace__objects_1_1_celestial_body}{space\+\_\+objects.\+Celestial\+Body}}}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classspace__objects_1_1_celestial_body_a1790e6421c33f1570c11b4b2d06eff4b}{name}} = name
+\item 
+\mbox{\hyperlink{classspace__objects_1_1_celestial_body_a7e7a103f53855e006f0fe413c4a05cda}{size}} = size
+\item 
+\mbox{\hyperlink{classspace__objects_1_1_celestial_body_a24251ec6d80c535dac799fd4373d5965}{diameter\+\_\+km}} = diameter\+\_\+km
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Description détaillée}
+\begin{DoxyVerb}@class Planet
+@brief Classe représentant une planète.
+
+Hérite de la classe CelestialBody et ajoute des informations sur l'orbite autour d'une étoile.
+
+@param name: Nom de la planète.
+@param size: Taille de la planète.
+@param star: Étoile autour de laquelle la planète orbite.
+@param semi_major_axis: Demi-grand axe de l'orbite en Unités Astronomiques.
+@param eccentricity: Excentricité de l'orbite.
+@param period: Période orbitale en années terrestres.
+@param diameter_km Diamètre réelle de la planète (donnée en km)
+@param color: Couleur de la planète pour l'affichage.
+\end{DoxyVerb}
+ 
+
+\doxysubsection{Documentation des constructeurs et destructeur}
+\Hypertarget{classspace__objects_1_1_planet_a0bb40013c055b7cd9c7b613f7156e0e4}\index{space\_objects.Planet@{space\_objects.Planet}!\_\_init\_\_@{\_\_init\_\_}}
+\index{\_\_init\_\_@{\_\_init\_\_}!space\_objects.Planet@{space\_objects.Planet}}
+\doxysubsubsection{\texorpdfstring{\_\_init\_\_()}{\_\_init\_\_()}}
+{\footnotesize\ttfamily \label{classspace__objects_1_1_planet_a0bb40013c055b7cd9c7b613f7156e0e4} 
+space\+\_\+objects.\+Planet.\+\_\+\+\_\+init\+\_\+\+\_\+ (\begin{DoxyParamCaption}\item[{}]{self}{, }\item[{}]{name}{, }\item[{}]{size}{, }\item[{}]{star}{, }\item[{}]{semi\+\_\+major\+\_\+axis}{, }\item[{}]{eccentricity}{, }\item[{}]{period}{, }\item[{}]{diameter\+\_\+km}{, }\item[{}]{color}{}\end{DoxyParamCaption})}
+
+
+
+\doxysubsection{Documentation des données membres}
+\Hypertarget{classspace__objects_1_1_planet_a9f2504aa2ba0db7fb9689dc301d46f4d}\index{space\_objects.Planet@{space\_objects.Planet}!color@{color}}
+\index{color@{color}!space\_objects.Planet@{space\_objects.Planet}}
+\doxysubsubsection{\texorpdfstring{color}{color}}
+{\footnotesize\ttfamily \label{classspace__objects_1_1_planet_a9f2504aa2ba0db7fb9689dc301d46f4d} 
+space\+\_\+objects.\+Planet.\+color = color}
+
+\Hypertarget{classspace__objects_1_1_planet_a819f0e21b751d68c28415d1b7872f19e}\index{space\_objects.Planet@{space\_objects.Planet}!eccentricity@{eccentricity}}
+\index{eccentricity@{eccentricity}!space\_objects.Planet@{space\_objects.Planet}}
+\doxysubsubsection{\texorpdfstring{eccentricity}{eccentricity}}
+{\footnotesize\ttfamily \label{classspace__objects_1_1_planet_a819f0e21b751d68c28415d1b7872f19e} 
+space\+\_\+objects.\+Planet.\+eccentricity = eccentricity}
+
+\Hypertarget{classspace__objects_1_1_planet_a7366e5f06e2eb7138921314eae4159a2}\index{space\_objects.Planet@{space\_objects.Planet}!period@{period}}
+\index{period@{period}!space\_objects.Planet@{space\_objects.Planet}}
+\doxysubsubsection{\texorpdfstring{period}{period}}
+{\footnotesize\ttfamily \label{classspace__objects_1_1_planet_a7366e5f06e2eb7138921314eae4159a2} 
+space\+\_\+objects.\+Planet.\+period = period}
+
+\Hypertarget{classspace__objects_1_1_planet_a20e1c836803b3cac552cd3fd77d712d9}\index{space\_objects.Planet@{space\_objects.Planet}!semi\_major\_axis@{semi\_major\_axis}}
+\index{semi\_major\_axis@{semi\_major\_axis}!space\_objects.Planet@{space\_objects.Planet}}
+\doxysubsubsection{\texorpdfstring{semi\_major\_axis}{semi\_major\_axis}}
+{\footnotesize\ttfamily \label{classspace__objects_1_1_planet_a20e1c836803b3cac552cd3fd77d712d9} 
+space\+\_\+objects.\+Planet.\+semi\+\_\+major\+\_\+axis = semi\+\_\+major\+\_\+axis}
+
+\Hypertarget{classspace__objects_1_1_planet_a0745550fe7a8b16018f5001efe63f5e9}\index{space\_objects.Planet@{space\_objects.Planet}!star@{star}}
+\index{star@{star}!space\_objects.Planet@{space\_objects.Planet}}
+\doxysubsubsection{\texorpdfstring{star}{star}}
+{\footnotesize\ttfamily \label{classspace__objects_1_1_planet_a0745550fe7a8b16018f5001efe63f5e9} 
+space\+\_\+objects.\+Planet.\+star = star}
+
+
+
+La documentation de cette classe a été générée à partir du fichier suivant \+:\begin{DoxyCompactItemize}
+\item 
+src/\mbox{\hyperlink{space__objects_8py}{space\+\_\+objects.\+py}}\end{DoxyCompactItemize}

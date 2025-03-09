@@ -1,0 +1,213 @@
+\doxysection{test Namespace Reference}
+\hypertarget{namespacetest}{}\label{namespacetest}\index{test@{test}}
+\doxysubsubsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+class \mbox{\hyperlink{classtest_1_1_celestial_body}{Celestial\+Body}}
+\item 
+class \mbox{\hyperlink{classtest_1_1_moon}{Moon}}
+\item 
+class \mbox{\hyperlink{classtest_1_1_planet}{Planet}}
+\item 
+class \mbox{\hyperlink{classtest_1_1_star}{Star}}
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{namespacetest_ad76ecf998304a0a72fb991ac7b9b6ab5}{get\+\_\+orbit}} (a, e, num\+\_\+points=200)
+\item 
+\mbox{\hyperlink{namespacetest_abbd5ff8055da65b3efdeb094d5f795c8}{update}} (frame)
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Variables}
+\begin{DoxyCompactItemize}
+\item 
+float \mbox{\hyperlink{namespacetest_abdac2d3f6d965c179827f276d5e4ea6e}{G}} = 6.\+67430e-\/11
+\item 
+float \mbox{\hyperlink{namespacetest_a1544b47d8e035e4badce4385c5de1899}{AU}} = 1.\+496e11
+\item 
+\mbox{\hyperlink{namespacetest_a55462fa8f5dd27c10d93638556217cdb}{sun}} = \mbox{\hyperlink{classtest_1_1_star}{Star}}("{}Soleil"{}, \mbox{\hyperlink{namespacetest_ab8b5c4f2199b3e92cf3bddbabe79d424}{size}}=12, mass=1.\+989e30)
+\item 
+list \mbox{\hyperlink{namespacetest_a85e122b7795e396651a41e23c5dcea84}{planets}}
+\item 
+\mbox{\hyperlink{namespacetest_a0122ca0053b0a1b669550efa9a7b77db}{moon}} = \mbox{\hyperlink{classtest_1_1_moon}{Moon}}("{}Lune"{}, 2, \mbox{\hyperlink{namespacetest_a85e122b7795e396651a41e23c5dcea84}{planets}}\mbox{[}2\mbox{]}, 0.\+05, 12)
+\item 
+\mbox{\hyperlink{namespacetest_a1e279d1eec3e91dcbd05f6227e40a32f}{fig}}
+\item 
+\mbox{\hyperlink{namespacetest_a8cd1eb128c8b60514b90dfa5e89ff843}{ax}}
+\item 
+\mbox{\hyperlink{namespacetest_abae7f2b69b47b8956b7028e24e5bdbfd}{figsize}}
+\item 
+\mbox{\hyperlink{namespacetest_af2b4a21aa97d15eb1bdb43e4b1481b86}{markersize}}
+\item 
+\mbox{\hyperlink{namespacetest_ab8b5c4f2199b3e92cf3bddbabe79d424}{size}}
+\item 
+\mbox{\hyperlink{namespacetest_a9aaeb5091d012d6a00105e8745c48fc3}{label}}
+\item 
+dict \mbox{\hyperlink{namespacetest_a11e7f95e689df9e00f4c148a09ef2af5}{planet\+\_\+plots}} = \{\}
+\item 
+\mbox{\hyperlink{namespacetest_a693d7bde360c1e568b1b3dc5fba70bff}{color}}
+\item 
+\mbox{\hyperlink{namespacetest_accf9c2b29590b2e2d68bb2614364444e}{x}}
+\item 
+\mbox{\hyperlink{namespacetest_a8e35cd41a1bbd5493b663b19c9df1d1d}{y}}
+\item 
+\mbox{\hyperlink{namespacetest_a39676268c7f8180d2c6e23dd7f770cf6}{alpha}}
+\item 
+\mbox{\hyperlink{namespacetest_ac5ddc75d7029ace1bfb95e457e5c3510}{name}}
+\item 
+\mbox{\hyperlink{namespacetest_a90ad5b36eccb3153bda541305e5b2128}{ani}} = animation.\+Func\+Animation(\mbox{\hyperlink{namespacetest_a1e279d1eec3e91dcbd05f6227e40a32f}{fig}}, \mbox{\hyperlink{namespacetest_abbd5ff8055da65b3efdeb094d5f795c8}{update}}, interval=50, blit=True)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Function Documentation}
+\Hypertarget{namespacetest_ad76ecf998304a0a72fb991ac7b9b6ab5}\index{test@{test}!get\_orbit@{get\_orbit}}
+\index{get\_orbit@{get\_orbit}!test@{test}}
+\doxysubsubsection{\texorpdfstring{get\_orbit()}{get\_orbit()}}
+{\footnotesize\ttfamily \label{namespacetest_ad76ecf998304a0a72fb991ac7b9b6ab5} 
+test.\+get\+\_\+orbit (\begin{DoxyParamCaption}\item[{}]{a}{, }\item[{}]{e}{, }\item[{}]{num\+\_\+points}{ = {\ttfamily 200}}\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}@brief Calcule les coordonnées d'une orbite elliptique.
+
+Cette fonction calcule les coordonnées x et y d'une orbite elliptique en fonction du demi-grand axe et de l'excentricité.
+
+@param a: Demi-grand axe de l'orbite.
+@param e: Excentricité de l'orbite.
+@param num_points: Nombre de points pour tracer l'orbite (par défaut 200).
+
+@return: Coordonnées x et y de l'orbite.
+\end{DoxyVerb}
+ \Hypertarget{namespacetest_abbd5ff8055da65b3efdeb094d5f795c8}\index{test@{test}!update@{update}}
+\index{update@{update}!test@{test}}
+\doxysubsubsection{\texorpdfstring{update()}{update()}}
+{\footnotesize\ttfamily \label{namespacetest_abbd5ff8055da65b3efdeb094d5f795c8} 
+test.\+update (\begin{DoxyParamCaption}\item[{}]{frame}{}\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}@brief Met à jour la position des planètes et de la lune à chaque frame.
+
+Cette fonction calcule les nouvelles positions des planètes et de la lune et les met à jour dans l'animation.
+
+@param frame: Index de l'animation.
+
+@return: Liste des éléments graphiques mis à jour.
+\end{DoxyVerb}
+ 
+
+\doxysubsection{Variable Documentation}
+\Hypertarget{namespacetest_a39676268c7f8180d2c6e23dd7f770cf6}\index{test@{test}!alpha@{alpha}}
+\index{alpha@{alpha}!test@{test}}
+\doxysubsubsection{\texorpdfstring{alpha}{alpha}}
+{\footnotesize\ttfamily \label{namespacetest_a39676268c7f8180d2c6e23dd7f770cf6} 
+test.\+alpha}
+
+\Hypertarget{namespacetest_a90ad5b36eccb3153bda541305e5b2128}\index{test@{test}!ani@{ani}}
+\index{ani@{ani}!test@{test}}
+\doxysubsubsection{\texorpdfstring{ani}{ani}}
+{\footnotesize\ttfamily \label{namespacetest_a90ad5b36eccb3153bda541305e5b2128} 
+test.\+ani = animation.\+Func\+Animation(\mbox{\hyperlink{namespacetest_a1e279d1eec3e91dcbd05f6227e40a32f}{fig}}, \mbox{\hyperlink{namespacetest_abbd5ff8055da65b3efdeb094d5f795c8}{update}}, interval=50, blit=True)}
+
+\Hypertarget{namespacetest_a1544b47d8e035e4badce4385c5de1899}\index{test@{test}!AU@{AU}}
+\index{AU@{AU}!test@{test}}
+\doxysubsubsection{\texorpdfstring{AU}{AU}}
+{\footnotesize\ttfamily \label{namespacetest_a1544b47d8e035e4badce4385c5de1899} 
+float test.\+AU = 1.\+496e11}
+
+\Hypertarget{namespacetest_a8cd1eb128c8b60514b90dfa5e89ff843}\index{test@{test}!ax@{ax}}
+\index{ax@{ax}!test@{test}}
+\doxysubsubsection{\texorpdfstring{ax}{ax}}
+{\footnotesize\ttfamily \label{namespacetest_a8cd1eb128c8b60514b90dfa5e89ff843} 
+test.\+ax}
+
+\Hypertarget{namespacetest_a693d7bde360c1e568b1b3dc5fba70bff}\index{test@{test}!color@{color}}
+\index{color@{color}!test@{test}}
+\doxysubsubsection{\texorpdfstring{color}{color}}
+{\footnotesize\ttfamily \label{namespacetest_a693d7bde360c1e568b1b3dc5fba70bff} 
+test.\+color}
+
+\Hypertarget{namespacetest_a1e279d1eec3e91dcbd05f6227e40a32f}\index{test@{test}!fig@{fig}}
+\index{fig@{fig}!test@{test}}
+\doxysubsubsection{\texorpdfstring{fig}{fig}}
+{\footnotesize\ttfamily \label{namespacetest_a1e279d1eec3e91dcbd05f6227e40a32f} 
+test.\+fig}
+
+\Hypertarget{namespacetest_abae7f2b69b47b8956b7028e24e5bdbfd}\index{test@{test}!figsize@{figsize}}
+\index{figsize@{figsize}!test@{test}}
+\doxysubsubsection{\texorpdfstring{figsize}{figsize}}
+{\footnotesize\ttfamily \label{namespacetest_abae7f2b69b47b8956b7028e24e5bdbfd} 
+test.\+figsize}
+
+\Hypertarget{namespacetest_abdac2d3f6d965c179827f276d5e4ea6e}\index{test@{test}!G@{G}}
+\index{G@{G}!test@{test}}
+\doxysubsubsection{\texorpdfstring{G}{G}}
+{\footnotesize\ttfamily \label{namespacetest_abdac2d3f6d965c179827f276d5e4ea6e} 
+float test.\+G = 6.\+67430e-\/11}
+
+\Hypertarget{namespacetest_a9aaeb5091d012d6a00105e8745c48fc3}\index{test@{test}!label@{label}}
+\index{label@{label}!test@{test}}
+\doxysubsubsection{\texorpdfstring{label}{label}}
+{\footnotesize\ttfamily \label{namespacetest_a9aaeb5091d012d6a00105e8745c48fc3} 
+test.\+label}
+
+\Hypertarget{namespacetest_af2b4a21aa97d15eb1bdb43e4b1481b86}\index{test@{test}!markersize@{markersize}}
+\index{markersize@{markersize}!test@{test}}
+\doxysubsubsection{\texorpdfstring{markersize}{markersize}}
+{\footnotesize\ttfamily \label{namespacetest_af2b4a21aa97d15eb1bdb43e4b1481b86} 
+test.\+markersize}
+
+\Hypertarget{namespacetest_a0122ca0053b0a1b669550efa9a7b77db}\index{test@{test}!moon@{moon}}
+\index{moon@{moon}!test@{test}}
+\doxysubsubsection{\texorpdfstring{moon}{moon}}
+{\footnotesize\ttfamily \label{namespacetest_a0122ca0053b0a1b669550efa9a7b77db} 
+test.\+moon = \mbox{\hyperlink{classtest_1_1_moon}{Moon}}("{}Lune"{}, 2, \mbox{\hyperlink{namespacetest_a85e122b7795e396651a41e23c5dcea84}{planets}}\mbox{[}2\mbox{]}, 0.\+05, 12)}
+
+\Hypertarget{namespacetest_ac5ddc75d7029ace1bfb95e457e5c3510}\index{test@{test}!name@{name}}
+\index{name@{name}!test@{test}}
+\doxysubsubsection{\texorpdfstring{name}{name}}
+{\footnotesize\ttfamily \label{namespacetest_ac5ddc75d7029ace1bfb95e457e5c3510} 
+test.\+name}
+
+\Hypertarget{namespacetest_a11e7f95e689df9e00f4c148a09ef2af5}\index{test@{test}!planet\_plots@{planet\_plots}}
+\index{planet\_plots@{planet\_plots}!test@{test}}
+\doxysubsubsection{\texorpdfstring{planet\_plots}{planet\_plots}}
+{\footnotesize\ttfamily \label{namespacetest_a11e7f95e689df9e00f4c148a09ef2af5} 
+dict test.\+planet\+\_\+plots = \{\}}
+
+\Hypertarget{namespacetest_a85e122b7795e396651a41e23c5dcea84}\index{test@{test}!planets@{planets}}
+\index{planets@{planets}!test@{test}}
+\doxysubsubsection{\texorpdfstring{planets}{planets}}
+{\footnotesize\ttfamily \label{namespacetest_a85e122b7795e396651a41e23c5dcea84} 
+list test.\+planets}
+
+{\bfseries Initial value\+:}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{00001\ =\ \ [}
+\DoxyCodeLine{00002\ \ \ \ \ Planet(\textcolor{stringliteral}{"{}Mercure"{}},\ 3,\ sun,\ 0.39,\ 0.205,\ 0.24),}
+\DoxyCodeLine{00003\ \ \ \ \ Planet(\textcolor{stringliteral}{"{}Vénus"{}},\ 6,\ sun,\ 0.72,\ 0.007,\ 0.62),}
+\DoxyCodeLine{00004\ \ \ \ \ Planet(\textcolor{stringliteral}{"{}Terre"{}},\ 6,\ sun,\ 1.0,\ 0.017,\ 1.0),}
+\DoxyCodeLine{00005\ \ \ \ \ Planet(\textcolor{stringliteral}{"{}Mars"{}},\ 4,\ sun,\ 1.52,\ 0.093,\ 1.88)}
+\DoxyCodeLine{00006\ ]}
+
+\end{DoxyCode}
+\Hypertarget{namespacetest_ab8b5c4f2199b3e92cf3bddbabe79d424}\index{test@{test}!size@{size}}
+\index{size@{size}!test@{test}}
+\doxysubsubsection{\texorpdfstring{size}{size}}
+{\footnotesize\ttfamily \label{namespacetest_ab8b5c4f2199b3e92cf3bddbabe79d424} 
+test.\+size}
+
+\Hypertarget{namespacetest_a55462fa8f5dd27c10d93638556217cdb}\index{test@{test}!sun@{sun}}
+\index{sun@{sun}!test@{test}}
+\doxysubsubsection{\texorpdfstring{sun}{sun}}
+{\footnotesize\ttfamily \label{namespacetest_a55462fa8f5dd27c10d93638556217cdb} 
+test.\+sun = \mbox{\hyperlink{classtest_1_1_star}{Star}}("{}Soleil"{}, \mbox{\hyperlink{namespacetest_ab8b5c4f2199b3e92cf3bddbabe79d424}{size}}=12, mass=1.\+989e30)}
+
+\Hypertarget{namespacetest_accf9c2b29590b2e2d68bb2614364444e}\index{test@{test}!x@{x}}
+\index{x@{x}!test@{test}}
+\doxysubsubsection{\texorpdfstring{x}{x}}
+{\footnotesize\ttfamily \label{namespacetest_accf9c2b29590b2e2d68bb2614364444e} 
+test.\+x}
+
+\Hypertarget{namespacetest_a8e35cd41a1bbd5493b663b19c9df1d1d}\index{test@{test}!y@{y}}
+\index{y@{y}!test@{test}}
+\doxysubsubsection{\texorpdfstring{y}{y}}
+{\footnotesize\ttfamily \label{namespacetest_a8e35cd41a1bbd5493b663b19c9df1d1d} 
+test.\+y}
+

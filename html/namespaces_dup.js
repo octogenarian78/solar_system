@@ -1,0 +1,45 @@
+var namespaces_dup =
+[
+    [ "functions", "namespacefunctions.html", [
+      [ "get_orbit", "namespacefunctions.html#af7504f00be5d87208e6322c8aba51b3c", null ],
+      [ "update", "namespacefunctions.html#a5a43573b7f626757ddd2627e5b6601f1", null ]
+    ] ],
+    [ "main", "namespacemain.html", [
+      [ "alpha", "namespacemain.html#a61a7486a18fe01a7b980543dfc251247", null ],
+      [ "ani", "namespacemain.html#a2bf92679ed82bada914e8f48d2270601", null ],
+      [ "ax", "namespacemain.html#a2768c57673d5a067d1c7e2591438e171", null ],
+      [ "bbox_to_anchor", "namespacemain.html#a0c2844f3d2e99a6426f318e921bbc79e", null ],
+      [ "color", "namespacemain.html#a97c90655b4d123f6f4bc0ecd771879c3", null ],
+      [ "edgecolor", "namespacemain.html#a2b165fe9cb5f29c89508d45efcf12ecc", null ],
+      [ "facecolor", "namespacemain.html#aeb132a19b647b12ff8ef9b64ec8888c8", null ],
+      [ "fig", "namespacemain.html#a80a1ad13319f249d1cd142ac3440d984", null ],
+      [ "figsize", "namespacemain.html#a34e5e1d837588ac653e93929e3418a44", null ],
+      [ "fontsize", "namespacemain.html#aa6758d32e7c7ace8d2b29e24d4661c6c", null ],
+      [ "frameon", "namespacemain.html#a60861050a5b3683953d04201688c0e71", null ],
+      [ "label", "namespacemain.html#aced2f0e5b178381f9f0a0bf045d8b11d", null ],
+      [ "labelspacing", "namespacemain.html#a18bf16a0e957ee3c5c784e99ba772f8e", null ],
+      [ "loc", "namespacemain.html#a1f83f6d20804b9920c66bb712feafae6", null ],
+      [ "markersize", "namespacemain.html#a04b1592f2ed89fc73abd6da104be68e8", null ],
+      [ "max_distance", "namespacemain.html#a54ab6136f1be152833c036cbd59d8fcc", null ],
+      [ "max_orbit_radius", "namespacemain.html#a7389bd1fda3e7c24c963ef12ff0d2529", null ],
+      [ "moon_plots", "namespacemain.html#a6ba1378b6b7f2800ca66cb382560a810", null ],
+      [ "moons", "namespacemain.html#a948664d009e4e03debb14a41e3105513", null ],
+      [ "moons_full", "namespacemain.html#a882d9cdfae4047ed8a4d032b2bfdd156", null ],
+      [ "moons_small", "namespacemain.html#af508eb656aff843bd96a3d225e034868", null ],
+      [ "name", "namespacemain.html#a75935476dce7e7a59f1c6604af9dad37", null ],
+      [ "orbit_color", "namespacemain.html#abc8a3f41b9d573ce6a285397edb48ea3", null ],
+      [ "planet_plots", "namespacemain.html#a5039d685f62bcbfd9fe2ad7a5a78bab3", null ],
+      [ "planets", "namespacemain.html#af796c3aed6164ba1ef8b809733deb942", null ],
+      [ "planets_full", "namespacemain.html#a6405f032f6fc0474a31f4e7c62db3d49", null ],
+      [ "planets_small", "namespacemain.html#a21a4ebd2db4fdf21fdbc7c89ea0c7fff", null ],
+      [ "planets_with_moons", "namespacemain.html#a8e3427db71c8974f800d434f6916bc46", null ],
+      [ "planets_with_moons_full", "namespacemain.html#aa9b883fe62b9432f887133fecb164d01", null ],
+      [ "planets_with_moons_small", "namespacemain.html#a4ee25f8ecff9d66415a65e45d8277a5e", null ],
+      [ "scale_factor", "namespacemain.html#a31705e9d324d51a37eafc373f1d2d9a7", null ],
+      [ "sun", "namespacemain.html#a9d9907b5eaa98a94bd356cc9f9c7e37c", null ],
+      [ "True", "namespacemain.html#a0c5b8ab1603c8c5b8db5e1128a757fea", null ],
+      [ "x", "namespacemain.html#a8d216d76ebd2f897ab8010e2890ee21e", null ],
+      [ "y", "namespacemain.html#acbd21618d99e2b00619047e85ee9fca6", null ]
+    ] ],
+    [ "space_objects", "namespacespace__objects.html", "namespacespace__objects" ]
+];

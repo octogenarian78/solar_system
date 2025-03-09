@@ -1,0 +1,80 @@
+\doxysection{Référence du fichier src/main.py}
+\hypertarget{main_8py}{}\label{main_8py}\index{src/main.py@{src/main.py}}
+\doxysubsubsection*{Espaces de nommage}
+\begin{DoxyCompactItemize}
+\item 
+namespace \mbox{\hyperlink{namespacemain}{main}}
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Variables}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{namespacemain_a9d9907b5eaa98a94bd356cc9f9c7e37c}{main.\+sun}} = \mbox{\hyperlink{classspace__objects_1_1_star}{Star}}("{}Soleil"{}, size=12, mass=1.\+989e30, diameter\+\_\+km=1392000, \mbox{\hyperlink{namespacemain_a97c90655b4d123f6f4bc0ecd771879c3}{color}}="{}\#FFD700"{})
+\item 
+list \mbox{\hyperlink{namespacemain_a6405f032f6fc0474a31f4e7c62db3d49}{main.\+planets\+\_\+full}}
+\item 
+list \mbox{\hyperlink{namespacemain_a882d9cdfae4047ed8a4d032b2bfdd156}{main.\+moons\+\_\+full}}
+\item 
+list \mbox{\hyperlink{namespacemain_aa9b883fe62b9432f887133fecb164d01}{main.\+planets\+\_\+with\+\_\+moons\+\_\+full}}
+\item 
+list \mbox{\hyperlink{namespacemain_a21a4ebd2db4fdf21fdbc7c89ea0c7fff}{main.\+planets\+\_\+small}}
+\item 
+list \mbox{\hyperlink{namespacemain_af508eb656aff843bd96a3d225e034868}{main.\+moons\+\_\+small}}
+\item 
+list \mbox{\hyperlink{namespacemain_a4ee25f8ecff9d66415a65e45d8277a5e}{main.\+planets\+\_\+with\+\_\+moons\+\_\+small}}
+\item 
+\mbox{\hyperlink{namespacemain_af796c3aed6164ba1ef8b809733deb942}{main.\+planets}}
+\item 
+\mbox{\hyperlink{namespacemain_a948664d009e4e03debb14a41e3105513}{main.\+moons}}
+\item 
+\mbox{\hyperlink{namespacemain_a8e3427db71c8974f800d434f6916bc46}{main.\+planets\+\_\+with\+\_\+moons}}
+\item 
+\mbox{\hyperlink{namespacemain_a54ab6136f1be152833c036cbd59d8fcc}{main.\+max\+\_\+distance}} = max(planet.\+semi\+\_\+major\+\_\+axis for planet in \mbox{\hyperlink{namespacemain_af796c3aed6164ba1ef8b809733deb942}{planets}})
+\item 
+int \mbox{\hyperlink{namespacemain_a31705e9d324d51a37eafc373f1d2d9a7}{main.\+scale\+\_\+factor}} = max(planet.\+diameter\+\_\+km for planet in \mbox{\hyperlink{namespacemain_af796c3aed6164ba1ef8b809733deb942}{planets}}) / 10
+\item 
+float \mbox{\hyperlink{namespacemain_a7389bd1fda3e7c24c963ef12ff0d2529}{main.\+max\+\_\+orbit\+\_\+radius}} = \mbox{\hyperlink{namespacemain_a54ab6136f1be152833c036cbd59d8fcc}{max\+\_\+distance}} \texorpdfstring{$\ast$}{*} 1.\+2
+\item 
+\mbox{\hyperlink{namespacemain_a80a1ad13319f249d1cd142ac3440d984}{main.\+fig}}
+\item 
+\mbox{\hyperlink{namespacemain_a2768c57673d5a067d1c7e2591438e171}{main.\+ax}}
+\item 
+\mbox{\hyperlink{namespacemain_a34e5e1d837588ac653e93929e3418a44}{main.\+figsize}}
+\item 
+\mbox{\hyperlink{namespacemain_a97c90655b4d123f6f4bc0ecd771879c3}{main.\+color}}
+\item 
+\mbox{\hyperlink{namespacemain_a04b1592f2ed89fc73abd6da104be68e8}{main.\+markersize}}
+\item 
+\mbox{\hyperlink{namespacemain_aced2f0e5b178381f9f0a0bf045d8b11d}{main.\+label}}
+\item 
+\mbox{\hyperlink{namespacemain_a75935476dce7e7a59f1c6604af9dad37}{main.\+name}}
+\item 
+dict \mbox{\hyperlink{namespacemain_a5039d685f62bcbfd9fe2ad7a5a78bab3}{main.\+planet\+\_\+plots}} = \{\}
+\item 
+dict \mbox{\hyperlink{namespacemain_a6ba1378b6b7f2800ca66cb382560a810}{main.\+moon\+\_\+plots}} = \{\}
+\item 
+\mbox{\hyperlink{namespacemain_a8d216d76ebd2f897ab8010e2890ee21e}{main.\+x}}
+\item 
+\mbox{\hyperlink{namespacemain_acbd21618d99e2b00619047e85ee9fca6}{main.\+y}}
+\item 
+\mbox{\hyperlink{namespacemain_abc8a3f41b9d573ce6a285397edb48ea3}{main.\+orbit\+\_\+color}} = mcolors.\+to\+\_\+rgba(planet.\+color, \mbox{\hyperlink{namespacemain_a61a7486a18fe01a7b980543dfc251247}{alpha}}=0.\+3)
+\item 
+\mbox{\hyperlink{namespacemain_a61a7486a18fe01a7b980543dfc251247}{main.\+alpha}}
+\item 
+\mbox{\hyperlink{namespacemain_a1f83f6d20804b9920c66bb712feafae6}{main.\+loc}}
+\item 
+\mbox{\hyperlink{namespacemain_a0c2844f3d2e99a6426f318e921bbc79e}{main.\+bbox\+\_\+to\+\_\+anchor}}
+\item 
+\mbox{\hyperlink{namespacemain_aeb132a19b647b12ff8ef9b64ec8888c8}{main.\+facecolor}}
+\item 
+\mbox{\hyperlink{namespacemain_a2b165fe9cb5f29c89508d45efcf12ecc}{main.\+edgecolor}}
+\item 
+\mbox{\hyperlink{namespacemain_a60861050a5b3683953d04201688c0e71}{main.\+frameon}}
+\item 
+\mbox{\hyperlink{namespacemain_a0c5b8ab1603c8c5b8db5e1128a757fea}{main.\+True}}
+\item 
+\mbox{\hyperlink{namespacemain_a18bf16a0e957ee3c5c784e99ba772f8e}{main.\+labelspacing}}
+\item 
+\mbox{\hyperlink{namespacemain_aa6758d32e7c7ace8d2b29e24d4661c6c}{main.\+fontsize}}
+\item 
+\mbox{\hyperlink{namespacemain_a2bf92679ed82bada914e8f48d2270601}{main.\+ani}} = animation.\+Func\+Animation(\mbox{\hyperlink{namespacemain_a80a1ad13319f249d1cd142ac3440d984}{fig}}, update, fargs=(\mbox{\hyperlink{namespacemain_af796c3aed6164ba1ef8b809733deb942}{planets}}, \mbox{\hyperlink{namespacemain_a948664d009e4e03debb14a41e3105513}{moons}}, \mbox{\hyperlink{namespacemain_a5039d685f62bcbfd9fe2ad7a5a78bab3}{planet\+\_\+plots}}, \mbox{\hyperlink{namespacemain_a6ba1378b6b7f2800ca66cb382560a810}{moon\+\_\+plots}}, \mbox{\hyperlink{namespacemain_a8e3427db71c8974f800d434f6916bc46}{planets\+\_\+with\+\_\+moons}}), interval=50)
+\end{DoxyCompactItemize}
